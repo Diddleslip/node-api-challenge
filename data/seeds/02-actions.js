@@ -1,4 +1,4 @@
-exports.seed = function(knex) {
+exports.seed = function(knex, Promise) {
   return knex('actions').insert([
     {
       project_id: 1,
